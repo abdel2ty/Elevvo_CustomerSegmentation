@@ -646,7 +646,6 @@ def footer():
         <span>K-Means Clustering</span>
         <span style="color:var(--glass-brd)">·</span>
         <span>200 synthetic records · 5 segments</span>
-        <span style="color:var(--glass-brd)">·</span>
       </div>
       <div>@abdel2ty</div>
     </div>
