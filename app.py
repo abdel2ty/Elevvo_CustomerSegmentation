@@ -14,7 +14,6 @@ from sklearn.preprocessing import StandardScaler
 
 st.set_page_config(
     page_title="SegmentIQ",
-    page_icon="✦",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
@@ -816,7 +815,7 @@ elif page == "profiler":
     st.markdown('<div class="shell">', unsafe_allow_html=True)
 
     st.markdown('<div class="g-label">Customer Input</div>', unsafe_allow_html=True)
-    st.markdown('<div class="gcard" style="padding-bottom:1.1rem;">', unsafe_allow_html=True)
+    # st.markdown('<div class="gcard" style="padding-bottom:1.1rem;">', unsafe_allow_html=True)
     p1,p2,p3,p4 = st.columns([2,2,1,1])
     with p1: income   = st.slider("Annual Income (k$)", 15, 137, 65, key="pf_i")
     with p2: spending = st.slider("Spending Score (1–100)", 1, 100, 50, key="pf_s")
