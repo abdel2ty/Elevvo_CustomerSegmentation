@@ -643,15 +643,12 @@ def footer():
     <div class="g-footer">
       <div style="display:flex;gap:16px;align-items:center;">
         <span style="color:var(--violet2);">✦</span>
-        <span>SegmentIQ v7.0</span>
-        <span style="color:var(--glass-brd)">·</span>
         <span>K-Means Clustering</span>
         <span style="color:var(--glass-brd)">·</span>
         <span>200 synthetic records · 5 segments</span>
         <span style="color:var(--glass-brd)">·</span>
-        <span>ML Internship Task 2</span>
       </div>
-      <div>sklearn 1.x · seed=42 · n_init=15</div>
+      <div>@abdel2ty</div>
     </div>
     """, unsafe_allow_html=True)
 
