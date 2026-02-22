@@ -430,14 +430,14 @@ section[data-testid="stSidebar"],
     font-size: 0.6rem !important; font-weight: 400 !important;
     color: var(--text3) !important; text-transform: uppercase !important; letter-spacing: 0.1em !important;
 }
-div[data-testid="stSlider"] > div > div > div {
-    background: rgba(255,255,255,0.1) !important; height: 3px !important;
-}
-div[data-testid="stSlider"] > div > div > div > div {
-    background: linear-gradient(135deg, var(--violet), var(--violet2)) !important;
-    box-shadow: 0 0 8px rgba(139,92,246,0.5) !important;
-    width: 16px !important; height: 16px !important; border-radius: 50% !important;
-}
+# div[data-testid="stSlider"] > div > div > div {
+#     background: rgba(255,255,255,0.1) !important; height: 3px !important;
+# }
+# div[data-testid="stSlider"] > div > div > div > div {
+#     background: linear-gradient(135deg, var(--violet), var(--violet2)) !important;
+#     box-shadow: 0 0 8px rgba(139,92,246,0.5) !important;
+#     width: 16px !important; height: 16px !important; border-radius: 50% !important;
+# }
 .stSelectbox label, .stNumberInput label, .stMultiSelect label {
     font-family: 'JetBrains Mono', monospace !important;
     font-size: 0.6rem !important; font-weight: 400 !important;
