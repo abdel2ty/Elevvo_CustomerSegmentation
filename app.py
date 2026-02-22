@@ -1067,7 +1067,7 @@ elif page == "simulator":
     st.markdown('<div class="shell">', unsafe_allow_html=True)
 
     st.markdown('<div class="g-label">Baseline Profile</div>', unsafe_allow_html=True)
-    st.markdown('<div class="gcard" style="padding-bottom:1.1rem;">', unsafe_allow_html=True)
+    # st.markdown('<div class="gcard" style="padding-bottom:1.1rem;">', unsafe_allow_html=True)
     b1, b2 = st.columns(2)
     with b1: base_i = st.slider("Annual Income (k$)", 15, 137, 55, key="sim_i")
     with b2: base_s = st.slider("Spending Score (1–100)", 1, 100, 50, key="sim_s")
@@ -1201,7 +1201,7 @@ elif page == "data":
 
     st.markdown('<div style="height:1.2rem"></div>', unsafe_allow_html=True)
     st.markdown('<div class="g-label">Filters</div>', unsafe_allow_html=True)
-    st.markdown('<div class="gcard" style="padding-bottom:1.1rem;">', unsafe_allow_html=True)
+    # st.markdown('<div class="gcard" style="padding-bottom:1.1rem;">', unsafe_allow_html=True)
     fa, fb, fc, fd = st.columns([2,1.5,1.5,1])
     with fa:
         seg_f = st.multiselect("Segment", list(range(5)),
