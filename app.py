@@ -1,10 +1,3 @@
-"""
-SegmentIQ — Customer Segmentation Intelligence
-Glassmorphism · Soft Violet · Frosted Panels
-5 Tabs: Overview · Profiler · Segments · Simulator · Data
-Run: streamlit run customer_seg_v7.py
-"""
-
 import streamlit as st
 import numpy as np
 import pandas as pd
